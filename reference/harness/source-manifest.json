@@ -1,0 +1,47 @@
+{
+  "terminal_bench_runner.py": {
+    "server_original_sha256": "b3f13ec357ff03821acbb81cf4433baf587115b6d00a22cfc21bbcaf74680dc1",
+    "public_sha256": "dffe4b6648d00f0fc867e73df1ac116873c24387385a7f780876270748a29131",
+    "transform": "Host root -> /opt/benchmark, LAN IP -> loopback; no benchmark logic changes"
+  },
+  "terminal_bench_relay.py": {
+    "server_original_sha256": "31a1445937fd986873d717f07dc57b9225aa284d8060a57004d5d19b0d66efa6",
+    "public_sha256": "c5c7f285fe73319c2d3eb7133faecccfae1153f6b21f2f7be099f33ed8fd559a",
+    "transform": "Host root -> /opt/benchmark, LAN IP -> loopback; no benchmark logic changes"
+  },
+  "terminal_bench_watchdog.py": {
+    "server_original_sha256": "a0594a64b990099d199930e0c8d43b7e680525a0cd7d79568da1768367b89c88",
+    "public_sha256": "a0594a64b990099d199930e0c8d43b7e680525a0cd7d79568da1768367b89c88",
+    "transform": "unchanged"
+  },
+  "terminal_bench_stream.py": {
+    "server_original_sha256": "bc2c750f8e7ad4f55ebbc4c55ed81fa80919ba79128b1a4b26259a846f5c8f84",
+    "public_sha256": "bc2c750f8e7ad4f55ebbc4c55ed81fa80919ba79128b1a4b26259a846f5c8f84",
+    "transform": "unchanged"
+  },
+  "terminal_bench_apt_https.py": {
+    "server_original_sha256": "04086503695e5417af9ace1991eee4c2c17d8bfdd8f549333d5a97c9cb5c0ad8",
+    "public_sha256": "adba90a0d0cff9b5d1838a28c80368bce764fbcd6fefce9c8e262d4a60627645",
+    "transform": "Host root -> /opt/benchmark, LAN IP -> loopback; no benchmark logic changes"
+  },
+  "terminal_bench_aggregate.py": {
+    "server_original_sha256": "347ab6931fe6da4fe2eb9780cd7ec6a6c7622d91369de0ef3c12dcfb7b192ff9",
+    "public_sha256": "347ab6931fe6da4fe2eb9780cd7ec6a6c7622d91369de0ef3c12dcfb7b192ff9",
+    "transform": "unchanged"
+  },
+  "test_terminal_bench_stream.py": {
+    "server_original_sha256": "8e424c6a9736975b4bd707c58d690b122c86ffdeabe330c9d2383eda28019127",
+    "public_sha256": "8e424c6a9736975b4bd707c58d690b122c86ffdeabe330c9d2383eda28019127",
+    "transform": "unchanged"
+  },
+  "test_terminal_bench_memory.py": {
+    "server_original_sha256": "3724a33955a23125ad551e24ef73aea4b5b646e32404cdf1ee73dcce8910c33a",
+    "public_sha256": "3724a33955a23125ad551e24ef73aea4b5b646e32404cdf1ee73dcce8910c33a",
+    "transform": "unchanged"
+  },
+  "iq3s_stability_replay.py": {
+    "server_original_sha256": "cd6569b209ca1e91cb79c69c18d9504829f63cc9e3909168467f64906fdbb6dc",
+    "public_sha256": "a79c5ccb10b537f5e0389f08b3d8e2bbfbca4d972e222be768e491e2509cd78f",
+    "transform": "Extract original StopRun/repetition_reason/StreamEvidence unchanged; omit unrelated replay runner."
+  }
+}

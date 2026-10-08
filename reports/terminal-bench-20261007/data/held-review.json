@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-10-08T04:57:38.266957+00:00",
+  "disposition": "hold_without_score",
+  "task": "build-cython-ext",
+  "held_trials": 9,
+  "official_oracle_passes": false,
+  "evidence_reviewed": [
+    "ORACLE_BUILD_CYTHON.md",
+    "oracle-analysis-build-cython/nested-direct.txt",
+    "tasks/build-cython-ext/environment/Dockerfile",
+    "tasks/build-cython-ext/solution/solve.sh",
+    "tasks/build-cython-ext/tests/test_outputs.py"
+  ],
+  "candidate": "Pin compatible planarity/networkx after isolating cause, then validate original official oracle. No known validated version pair.",
+  "decision": "No validated remedy under unchanged task/solution/scoring. Keep nine held, no blind retry or task replacement; report partial 171/19. Source or test edits not applied.",
+  "limitation": "This review does not prove impossibility of a future environment repair."
+}

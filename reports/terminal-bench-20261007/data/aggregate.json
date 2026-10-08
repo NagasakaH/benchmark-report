@@ -1,0 +1,745 @@
+{
+  "created_at": 1791435139.9997547,
+  "planned": 180,
+  "completed": 171,
+  "held": 9,
+  "tasks": 19,
+  "models": {
+    "iq4": {
+      "trials": 57,
+      "passed": 40.0,
+      "task_scores": {
+        "cancel-async-tasks": [
+          0,
+          0,
+          0
+        ],
+        "cobol-modernization": [
+          1,
+          1,
+          1
+        ],
+        "constraints-scheduling": [
+          1,
+          1,
+          1
+        ],
+        "custom-memory-heap-crash": [
+          1,
+          1,
+          1
+        ],
+        "db-wal-recovery": [
+          1,
+          1,
+          0
+        ],
+        "fix-git": [
+          1,
+          1,
+          1
+        ],
+        "git-multibranch": [
+          0,
+          1,
+          1
+        ],
+        "kv-store-grpc": [
+          1,
+          1,
+          1
+        ],
+        "large-scale-text-editing": [
+          1,
+          0,
+          1
+        ],
+        "log-summary-date-ranges": [
+          1,
+          1,
+          1
+        ],
+        "modernize-scientific-stack": [
+          1,
+          1,
+          1
+        ],
+        "nginx-request-logging": [
+          1,
+          0,
+          1
+        ],
+        "openssl-selfsigned-cert": [
+          1,
+          1,
+          1
+        ],
+        "polyglot-c-py": [
+          0,
+          0,
+          0
+        ],
+        "query-optimize": [
+          0,
+          0,
+          0
+        ],
+        "regex-log": [
+          1,
+          1,
+          1
+        ],
+        "sanitize-git-repo": [
+          1,
+          0,
+          0
+        ],
+        "sqlite-db-truncate": [
+          1,
+          1,
+          1
+        ],
+        "write-compressor": [
+          1,
+          0,
+          0
+        ]
+      },
+      "tasks_3of3": 10,
+      "tasks_1plus": 16,
+      "tasks_mixed": 6,
+      "repetition_passes": {
+        "1": 15.0,
+        "2": 12.0,
+        "3": 13.0
+      },
+      "exceptions": {
+        "AgentTimeoutError": 3
+      },
+      "timeout_passed": 1,
+      "elapsed_s": {
+        "n": 57,
+        "sum": 17640.137403011322,
+        "mean": 309.4760947896723,
+        "median": 207.8386538028717,
+        "p95": 938.9908483028412,
+        "min": 81.34678554534912,
+        "max": 1110.4594466686249
+      },
+      "preparation_s": {
+        "n": 54,
+        "sum": 268.7758536338806,
+        "mean": 4.9773306228496415,
+        "median": 4.810009717941284,
+        "p95": 6.138300180435181,
+        "min": 2.075099468231201,
+        "max": 6.179471969604492
+      },
+      "elapsed_plus_known_preparation_s": 17908.913256645203,
+      "success_elapsed_s": {
+        "n": 40,
+        "sum": 9749.60489153862,
+        "mean": 243.7401222884655,
+        "median": 158.65513122081757,
+        "p95": 660.2606983184814,
+        "min": 81.34678554534912,
+        "max": 938.9908483028412
+      },
+      "failure_elapsed_s": {
+        "n": 17,
+        "sum": 7890.532511472702,
+        "mean": 464.1489712631001,
+        "median": 361.44948720932007,
+        "p95": 1110.4594466686249,
+        "min": 114.47098565101624,
+        "max": 1110.4594466686249
+      },
+      "apis": 526,
+      "client_disconnected": 1,
+      "upstream_tokens": {
+        "prompt_tokens": 6338373,
+        "completion_tokens": 685972
+      },
+      "cached_tokens_reported": 5963170,
+      "cache_field_requests": 526,
+      "harbor_tokens": {
+        "n_input_tokens": 6296109,
+        "n_cache_tokens": 5926127,
+        "n_output_tokens": 550504
+      },
+      "ttft_first_s": {
+        "n": 57,
+        "sum": 1393.7140076111828,
+        "mean": 24.451122940547066,
+        "median": 24.771214499982307,
+        "p95": 25.935374023014447,
+        "min": 15.617838972015306,
+        "max": 26.216101707017515
+      },
+      "ttft_later_s": {
+        "n": 469,
+        "sum": 534.7183584313025,
+        "mean": 1.1401244316232462,
+        "median": 0.9786350340000354,
+        "p95": 2.4347190739936195,
+        "min": 0.32734064100077376,
+        "max": 9.372713964025024
+      },
+      "ttft_cold_first_s": {
+        "n": 54,
+        "sum": 1332.6797665851773,
+        "mean": 24.679254936762543,
+        "median": 24.781420714512933,
+        "p95": 25.935374023014447,
+        "min": 23.501894878980238,
+        "max": 26.216101707017515
+      },
+      "observed_output_tps": 74.64720962455844,
+      "strata_prefill_tps": 570.645222420581,
+      "strata_decode_tps": 74.49631512176305,
+      "vllm_paired_requests": 0,
+      "vllm_deltas": {
+        "request_prefill_time_seconds_sum": 0,
+        "request_decode_time_seconds_sum": 0,
+        "prompt_tokens_total": 0,
+        "generation_tokens_total": 0
+      },
+      "sampled_gpu_wh": 699.559067879551,
+      "telemetry_span_s": 17377.158941030502,
+      "unsampled_elapsed_s": 262.9784619808197,
+      "post_telemetry_api_s": 174.77701210975647,
+      "drain_unsampled_trials": 1,
+      "max_telemetry_gap_s": 1.1388874053955078,
+      "peak_vram_gib_each": [
+        31.77167510986328,
+        31.77153778076172
+      ],
+      "peak_two_gpu_w": 432.0,
+      "max_temp_c": 80.0,
+      "min_mem_available_gib": 70.4283218383789,
+      "max_swap_mib": 482.92578125,
+      "guard_policies": {
+        "original": 137,
+        "input_grounded_inline_zero_hex_v1": 328,
+        "input_grounded_inline_zero_hex_v2_wrapped160": 61
+      },
+      "quote_exemption_requests": 0
+    },
+    "iq3": {
+      "trials": 57,
+      "passed": 41.0,
+      "task_scores": {
+        "cancel-async-tasks": [
+          0,
+          1,
+          0
+        ],
+        "cobol-modernization": [
+          1,
+          1,
+          1
+        ],
+        "constraints-scheduling": [
+          1,
+          1,
+          1
+        ],
+        "custom-memory-heap-crash": [
+          1,
+          1,
+          1
+        ],
+        "db-wal-recovery": [
+          0,
+          1,
+          0
+        ],
+        "fix-git": [
+          1,
+          1,
+          1
+        ],
+        "git-multibranch": [
+          1,
+          1,
+          1
+        ],
+        "kv-store-grpc": [
+          1,
+          1,
+          1
+        ],
+        "large-scale-text-editing": [
+          1,
+          1,
+          0
+        ],
+        "log-summary-date-ranges": [
+          1,
+          1,
+          1
+        ],
+        "modernize-scientific-stack": [
+          1,
+          1,
+          1
+        ],
+        "nginx-request-logging": [
+          1,
+          1,
+          1
+        ],
+        "openssl-selfsigned-cert": [
+          1,
+          0,
+          1
+        ],
+        "polyglot-c-py": [
+          0,
+          0,
+          0
+        ],
+        "query-optimize": [
+          0,
+          1,
+          1
+        ],
+        "regex-log": [
+          1,
+          1,
+          1
+        ],
+        "sanitize-git-repo": [
+          0,
+          0,
+          0
+        ],
+        "sqlite-db-truncate": [
+          1,
+          1,
+          1
+        ],
+        "write-compressor": [
+          0,
+          0,
+          0
+        ]
+      },
+      "tasks_3of3": 11,
+      "tasks_1plus": 16,
+      "tasks_mixed": 5,
+      "repetition_passes": {
+        "1": 13.0,
+        "2": 15.0,
+        "3": 13.0
+      },
+      "exceptions": {
+        "AgentTimeoutError": 4
+      },
+      "timeout_passed": 0,
+      "elapsed_s": {
+        "n": 57,
+        "sum": 16819.459437847137,
+        "mean": 295.07823575170414,
+        "median": 198.80240035057068,
+        "p95": 938.9363696575165,
+        "min": 89.39929461479187,
+        "max": 1066.199790239334
+      },
+      "preparation_s": {
+        "n": 55,
+        "sum": 331.4796459674835,
+        "mean": 6.026902653954246,
+        "median": 6.741984605789185,
+        "p95": 6.8370749950408936,
+        "min": 2.9781484603881836,
+        "max": 7.085097074508667
+      },
+      "elapsed_plus_known_preparation_s": 17150.93908381462,
+      "success_elapsed_s": {
+        "n": 41,
+        "sum": 10028.370221138,
+        "mean": 244.5943956375122,
+        "median": 174.69720029830933,
+        "p95": 532.2549452781677,
+        "min": 89.39929461479187,
+        "max": 571.0018231868744
+      },
+      "failure_elapsed_s": {
+        "n": 16,
+        "sum": 6791.089216709137,
+        "mean": 424.44307604432106,
+        "median": 257.59703290462494,
+        "p95": 1066.199790239334,
+        "min": 118.50860381126404,
+        "max": 1066.199790239334
+      },
+      "apis": 492,
+      "client_disconnected": 4,
+      "upstream_tokens": {
+        "prompt_tokens": 5092801,
+        "completion_tokens": 628759
+      },
+      "cached_tokens_reported": 4731427,
+      "cache_field_requests": 492,
+      "harbor_tokens": {
+        "n_input_tokens": 4927388,
+        "n_cache_tokens": 4570929,
+        "n_output_tokens": 505141
+      },
+      "ttft_first_s": {
+        "n": 57,
+        "sum": 1376.0381914221507,
+        "mean": 24.141020902142994,
+        "median": 23.78648632200202,
+        "p95": 24.91761116401176,
+        "min": 23.568201324000256,
+        "max": 26.732330473023467
+      },
+      "ttft_later_s": {
+        "n": 435,
+        "sum": 481.3034239997214,
+        "mean": 1.1064446528729228,
+        "median": 0.9280845089815557,
+        "p95": 2.4196947239979636,
+        "min": 0.38304322300245985,
+        "max": 9.545954786008224
+      },
+      "ttft_cold_first_s": {
+        "n": 55,
+        "sum": 1325.6512968131283,
+        "mean": 24.102750851147785,
+        "median": 23.78648632200202,
+        "p95": 24.90136057100608,
+        "min": 23.568201324000256,
+        "max": 25.395896025991533
+      },
+      "observed_output_tps": 70.19159538552023,
+      "strata_prefill_tps": 604.3460861092916,
+      "strata_decode_tps": 70.05474297302212,
+      "vllm_paired_requests": 0,
+      "vllm_deltas": {
+        "request_prefill_time_seconds_sum": 0,
+        "request_decode_time_seconds_sum": 0,
+        "prompt_tokens_total": 0,
+        "generation_tokens_total": 0
+      },
+      "sampled_gpu_wh": 698.8905663160483,
+      "telemetry_span_s": 16586.636785030365,
+      "unsampled_elapsed_s": 232.82265281677246,
+      "post_telemetry_api_s": 144.9703493118286,
+      "drain_unsampled_trials": 3,
+      "max_telemetry_gap_s": 1.025865077972412,
+      "peak_vram_gib_each": [
+        31.635265350341797,
+        31.48625946044922
+      ],
+      "peak_two_gpu_w": 484.0,
+      "max_temp_c": 79.0,
+      "min_mem_available_gib": 37.543548583984375,
+      "max_swap_mib": 447.90234375,
+      "guard_policies": {
+        "original": 127,
+        "input_grounded_inline_zero_hex_v1": 304,
+        "input_grounded_inline_zero_hex_v2_wrapped160": 61
+      },
+      "quote_exemption_requests": 0
+    },
+    "27b": {
+      "trials": 57,
+      "passed": 43.0,
+      "task_scores": {
+        "cancel-async-tasks": [
+          1,
+          1,
+          0
+        ],
+        "cobol-modernization": [
+          1,
+          1,
+          1
+        ],
+        "constraints-scheduling": [
+          1,
+          1,
+          1
+        ],
+        "custom-memory-heap-crash": [
+          1,
+          1,
+          1
+        ],
+        "db-wal-recovery": [
+          0,
+          0,
+          0
+        ],
+        "fix-git": [
+          1,
+          1,
+          1
+        ],
+        "git-multibranch": [
+          1,
+          1,
+          1
+        ],
+        "kv-store-grpc": [
+          1,
+          1,
+          1
+        ],
+        "large-scale-text-editing": [
+          1,
+          1,
+          1
+        ],
+        "log-summary-date-ranges": [
+          1,
+          1,
+          1
+        ],
+        "modernize-scientific-stack": [
+          1,
+          1,
+          1
+        ],
+        "nginx-request-logging": [
+          1,
+          1,
+          1
+        ],
+        "openssl-selfsigned-cert": [
+          1,
+          1,
+          1
+        ],
+        "polyglot-c-py": [
+          0,
+          0,
+          0
+        ],
+        "query-optimize": [
+          0,
+          1,
+          1
+        ],
+        "regex-log": [
+          1,
+          1,
+          1
+        ],
+        "sanitize-git-repo": [
+          0,
+          0,
+          0
+        ],
+        "sqlite-db-truncate": [
+          1,
+          1,
+          1
+        ],
+        "write-compressor": [
+          0,
+          0,
+          0
+        ]
+      },
+      "tasks_3of3": 13,
+      "tasks_1plus": 15,
+      "tasks_mixed": 2,
+      "repetition_passes": {
+        "1": 14.0,
+        "2": 15.0,
+        "3": 14.0
+      },
+      "exceptions": {
+        "AgentTimeoutError": 3
+      },
+      "timeout_passed": 1,
+      "elapsed_s": {
+        "n": 57,
+        "sum": 19217.393981933594,
+        "mean": 337.14726284094024,
+        "median": 246.07943320274353,
+        "p95": 1015.1419763565063,
+        "min": 144.84175753593445,
+        "max": 1243.828628063202
+      },
+      "preparation_s": {
+        "n": 54,
+        "sum": 336.951700925827,
+        "mean": 6.239846313441241,
+        "median": 6.133080244064331,
+        "p95": 7.0389862060546875,
+        "min": 2.2606003284454346,
+        "max": 7.4304540157318115
+      },
+      "elapsed_plus_known_preparation_s": 19554.34568285942,
+      "success_elapsed_s": {
+        "n": 43,
+        "sum": 13236.509006023407,
+        "mean": 307.82579083775363,
+        "median": 218.1633141040802,
+        "p95": 923.1566078662872,
+        "min": 144.84175753593445,
+        "max": 1243.828628063202
+      },
+      "failure_elapsed_s": {
+        "n": 14,
+        "sum": 5980.884975910187,
+        "mean": 427.2060697078705,
+        "median": 330.75736713409424,
+        "p95": 1029.416464805603,
+        "min": 166.9917778968811,
+        "max": 1029.416464805603
+      },
+      "apis": 595,
+      "client_disconnected": 2,
+      "upstream_tokens": {
+        "prompt_tokens": 9561014,
+        "completion_tokens": 976771
+      },
+      "cached_tokens_reported": 0,
+      "cache_field_requests": 0,
+      "harbor_tokens": {
+        "n_input_tokens": 9420704,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 731011
+      },
+      "ttft_first_s": {
+        "n": 57,
+        "sum": 5926.708613780938,
+        "mean": 103.97734410141997,
+        "median": 104.53480952000245,
+        "p95": 106.64344352300395,
+        "min": 100.49885947300936,
+        "max": 108.61655318600242
+      },
+      "ttft_later_s": {
+        "n": 538,
+        "sum": 467.92923589557176,
+        "mean": 0.8697569440438137,
+        "median": 0.7696466130000772,
+        "p95": 1.6637907460099086,
+        "min": 0.24551912597962655,
+        "max": 3.550940132001415
+      },
+      "ttft_cold_first_s": {
+        "n": 54,
+        "sum": 5603.972610531957,
+        "mean": 103.77727056540661,
+        "median": 104.07779379549902,
+        "p95": 104.6362304679933,
+        "min": 100.49885947300936,
+        "max": 105.5847763629863
+      },
+      "observed_output_tps": 164.7468131968334,
+      "strata_prefill_tps": null,
+      "strata_decode_tps": null,
+      "vllm_paired_requests": 538,
+      "vllm_deltas": {
+        "request_prefill_time_seconds_sum": 452.40075625051395,
+        "request_decode_time_seconds_sum": 5332.9656787623535,
+        "prompt_tokens_total": 9506139.0,
+        "generation_tokens_total": 861635.0
+      },
+      "sampled_gpu_wh": 866.0100637457438,
+      "telemetry_span_s": 18958.53725552559,
+      "unsampled_elapsed_s": 258.85672640800476,
+      "post_telemetry_api_s": 169.69240069389343,
+      "drain_unsampled_trials": 2,
+      "max_telemetry_gap_s": 1.0213673114776611,
+      "peak_vram_gib_each": [
+        31.772724151611328,
+        31.772750854492188
+      ],
+      "peak_two_gpu_w": 440.0,
+      "max_temp_c": 79.0,
+      "min_mem_available_gib": 38.49003601074219,
+      "max_swap_mib": 482.83984375,
+      "guard_policies": {
+        "original": 141,
+        "input_grounded_inline_zero_hex_v1": 384,
+        "input_grounded_inline_zero_hex_v2_wrapped160": 70
+      },
+      "quote_exemption_requests": 0
+    }
+  },
+  "blocked_tasks": {
+    "build-cython-ext": {
+      "disposition": "hold_without_score",
+      "planned_trials": 9,
+      "official_oracle_passed": false,
+      "reason": "Official oracle failed twice: outer tests 10/11 pass. Direct diagnosis: pyknotid test_reconstructed_space_curve raises KeyError: pos in representations/representation.py:338. Installed planarity 1.0.0 and networkx 3.7; exact causal dependency not yet isolated.",
+      "evidence": [
+        "oracle/oracle-build-cython-ext",
+        "oracle/oracle-build-cython-ext-diagnostic-02",
+        "oracle-analysis-build-cython/nested-direct.txt"
+      ],
+      "replacement_task": null,
+      "score_policy": "No model attempted this task. Exclude from scored denominator and report 9 held trials; do not count as model failures or claim full 20-task completion."
+    }
+  },
+  "replacements": [
+    {
+      "label": "openssl-selfsigned-cert-iq3-r2-cache-recovery01",
+      "schedule_label": "openssl-selfsigned-cert-iq3-r2"
+    },
+    {
+      "label": "openssl-selfsigned-cert-iq3-r3-memory-recovery02",
+      "schedule_label": "openssl-selfsigned-cert-iq3-r3"
+    },
+    {
+      "label": "db-wal-recovery-iq4-r1-guard-recovery01",
+      "schedule_label": "db-wal-recovery-iq4-r1"
+    },
+    {
+      "label": "polyglot-c-py-iq4-r1-setup-recovery01",
+      "schedule_label": "polyglot-c-py-iq4-r1"
+    },
+    {
+      "label": "query-optimize-iq4-r1-setup-recovery02",
+      "schedule_label": "query-optimize-iq4-r1"
+    },
+    {
+      "label": "sqlite-db-truncate-27b-r3-guard-recovery02",
+      "schedule_label": "sqlite-db-truncate-27b-r3"
+    }
+  ],
+  "earliest_harbor_start": 1791372923.364131,
+  "runner_ended_at": 1791434620.8058598,
+  "audit": {
+    "passed": true,
+    "raw_sse_requests": 1613,
+    "raw_sse_validation": "JSON/error/DONE/finish/usage; Strata timings; stored metric equality. Does not rerun historical repetition policy.",
+    "oracle_passes": {
+      "cancel-async-tasks": "oracle/oracle-cancel-async-tasks/cancel-async-tasks__PwuqhLC/result.json",
+      "cobol-modernization": "oracle/oracle-cobol-modernization/cobol-modernization__Z5cJaBu/result.json",
+      "constraints-scheduling": "oracle/oracle-constraints-scheduling/constraints-scheduling__LUDhjYx/result.json",
+      "custom-memory-heap-crash": "oracle/oracle-custom-memory-heap-crash/custom-memory-heap-crash__3oYDKvJ/result.json",
+      "db-wal-recovery": "oracle/oracle-db-wal-recovery/db-wal-recovery__Sc47T3z/result.json",
+      "fix-git": "oracle/oracle-fix-git/fix-git__EmEzkUS/result.json",
+      "git-multibranch": "oracle/oracle-git-multibranch/git-multibranch__AgPrFxr/result.json",
+      "kv-store-grpc": "oracle/oracle-kv-store-grpc/kv-store-grpc__FUdH8iJ/result.json",
+      "large-scale-text-editing": "oracle/oracle-large-scale-text-editing/large-scale-text-editing__FTJRAK5/result.json",
+      "log-summary-date-ranges": "oracle/oracle-log-summary-date-ranges/log-summary-date-ranges__qUpGqpe/result.json",
+      "modernize-scientific-stack": "oracle/oracle-modernize-scientific-stack/modernize-scientific-stack__6w49tJg/result.json",
+      "nginx-request-logging": "oracle/oracle-nginx-request-logging/nginx-request-logging__riXaaZj/result.json",
+      "openssl-selfsigned-cert": "oracle/oracle-pilot-01/openssl-selfsigned-cert__rynpWYL/result.json",
+      "polyglot-c-py": "oracle/oracle-polyglot-c-py/polyglot-c-py__eZQ6nSY/result.json",
+      "query-optimize": "oracle/oracle-query-optimize/query-optimize__PJUj3zM/result.json",
+      "regex-log": "oracle/oracle-regex-log/regex-log__kBLetki/result.json",
+      "sanitize-git-repo": "oracle/oracle-sanitize-git-repo/sanitize-git-repo__5XEaCUQ/result.json",
+      "sqlite-db-truncate": "oracle/oracle-sqlite-db-truncate/sqlite-db-truncate__9dxA3MW/result.json",
+      "write-compressor": "oracle/oracle-write-compressor/write-compressor__ag2zP7L/result.json"
+    },
+    "upstream_common_parameters_verified": true,
+    "hashed_files": 3760
+  },
+  "caveats": [
+    "First eight trials have different cache preparation; missing preparation is unknown, not zero.",
+    "GPU Wh excludes preparation, oracle, interruptions, gaps between trials and unsampled API drain.",
+    "vLLM missing cache token fields mean unavailable, not zero cache hits."
+  ]
+}

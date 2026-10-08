@@ -1,0 +1,11 @@
+{
+  "build-cython-ext": {
+    "disposition": "hold_without_score",
+    "planned_trials": 9,
+    "official_oracle_passed": false,
+    "reason": "Official oracle failed twice: outer tests 10/11 pass. Direct diagnosis: pyknotid test_reconstructed_space_curve raises KeyError: pos in representations/representation.py:338. Installed planarity 1.0.0 and networkx 3.7; exact causal dependency not yet isolated.",
+    "evidence": ["oracle/oracle-build-cython-ext", "oracle/oracle-build-cython-ext-diagnostic-02", "oracle-analysis-build-cython/nested-direct.txt"],
+    "replacement_task": null,
+    "score_policy": "No model attempted this task. Exclude from scored denominator and report 9 held trials; do not count as model failures or claim full 20-task completion."
+  }
+}
